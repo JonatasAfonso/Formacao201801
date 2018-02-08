@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadeMeuMedico.API", "CadeMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadeMeuMedico.Testes", "CadeMeuMedico.Testes\CadeMeuMedico.Testes.csproj", "{393C9C48-5B26-4524-8D76-C3E7960014DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{BE5AD8C4-88D1-45AA-AE5C-A537D3DF5057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestDb", "ConsoleTestDb\ConsoleTestDb.csproj", "{E124CD8E-C361-43F8-950B-EA8BCBAEE034}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{393C9C48-5B26-4524-8D76-C3E7960014DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{393C9C48-5B26-4524-8D76-C3E7960014DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393C9C48-5B26-4524-8D76-C3E7960014DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5AD8C4-88D1-45AA-AE5C-A537D3DF5057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5AD8C4-88D1-45AA-AE5C-A537D3DF5057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5AD8C4-88D1-45AA-AE5C-A537D3DF5057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5AD8C4-88D1-45AA-AE5C-A537D3DF5057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E124CD8E-C361-43F8-950B-EA8BCBAEE034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E124CD8E-C361-43F8-950B-EA8BCBAEE034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E124CD8E-C361-43F8-950B-EA8BCBAEE034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E124CD8E-C361-43F8-950B-EA8BCBAEE034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,14 @@ namespace CadeMeuMedico.API
 {
     public class CadeMeuMedicoDb : DbContext
     {
+        public CadeMeuMedicoDb(DbContextOptions<CadeMeuMedicoDb> options): base(options)
+        { }
 
-        private DbSet<Usuario> Usuarios { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Cidade> Cidades { get; set; }
+        public DbSet<Medico> Medicos { get; set; }
+        public DbSet<Especialidade> Especialidades { get; set; }
+
     }
 }

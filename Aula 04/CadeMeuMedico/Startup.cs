@@ -65,11 +65,9 @@ namespace CadeMeuMedico
             {
                 routes.MapRoute(
                     name: "areas",
-                    template: "{controller=Home}/{action=Index}/{id?}"
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
                 );
             });
-
-            //{ area: exists}/
 
         }
     }
